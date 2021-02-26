@@ -8,12 +8,15 @@
 }
 
 #SummaryBarContainerDiv {
+  width: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   height: 100px;
   font-family: Roboto;
+  border-bottom: 1px solid #DDDDDD;
+  padding-bottom: 10px;
 }
 
 #LeftDiv {
@@ -54,8 +57,7 @@
 
 #superhost {
   position: absolute;
-  top: 30px;
-  left: 30px;
-  z-index: 200;
+  top: 50px;
+  left: 50px;
   font-size: 40px;
 }

@@ -68,7 +68,7 @@ class App extends React.Component {
         </div>
         <div id='PhotoDiv'>
           <img id='HostImage' src={this.state.hostPhotoURL}/>
-          <div id='superhost'>{this.state.isSuperhost ? '🎖' : ''}</div>
+          <div id='superhost'><img style={{display: this.state.isSuperhost ? 'block' : 'none'}} src='https://fec-gnocchi-user-profile.s3-us-west-2.amazonaws.com/airbnb-badge.png'></img></div>
         </div>
       </div>
     </div>)
